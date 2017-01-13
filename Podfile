@@ -8,5 +8,6 @@ target 'MSUtility' do
 	pod 'SwiftyJSON'
 	pod 'SVProgressHUD'
 	pod 'SCLAlertView'
+    pod 'NitroUIColorCategories'
 
 end
