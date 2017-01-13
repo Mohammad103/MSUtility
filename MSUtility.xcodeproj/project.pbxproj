@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C79A656342FF38904B92159 /* Pods_MSUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB249E73ED5989BF9A68D264 /* Pods_MSUtility.framework */; };
 		84C6355B1E285EB80085A9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6355A1E285EB80085A9F6 /* AppDelegate.swift */; };
 		84C6355D1E285EB80085A9F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6355C1E285EB80085A9F6 /* ViewController.swift */; };
 		84C635601E285EB80085A9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6355E1E285EB80085A9F6 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C6EC811C04028A3DD493574 /* Pods-MSUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSUtility.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSUtility/Pods-MSUtility.debug.xcconfig"; sourceTree = "<group>"; };
 		84C635571E285EB80085A9F6 /* MSUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C6355A1E285EB80085A9F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C6355C1E285EB80085A9F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		84C635611E285EB80085A9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C635641E285EB80085A9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C635661E285EB80085A9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90BCEF285243E33BD966C05F /* Pods-MSUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSUtility.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSUtility/Pods-MSUtility.release.xcconfig"; sourceTree = "<group>"; };
+		CB249E73ED5989BF9A68D264 /* Pods_MSUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C79A656342FF38904B92159 /* Pods_MSUtility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		378062F75A4B323D7245AE2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C6EC811C04028A3DD493574 /* Pods-MSUtility.debug.xcconfig */,
+				90BCEF285243E33BD966C05F /* Pods-MSUtility.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84C6354E1E285EB70085A9F6 = {
 			isa = PBXGroup;
 			children = (
 				84C635591E285EB80085A9F6 /* MSUtility */,
 				84C635581E285EB80085A9F6 /* Products */,
+				378062F75A4B323D7245AE2D /* Pods */,
+				CA82B30D65FCB5AF5755F696 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = MSUtility;
 			sourceTree = "<group>";
 		};
+		CA82B30D65FCB5AF5755F696 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB249E73ED5989BF9A68D264 /* Pods_MSUtility.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C635691E285EB80085A9F6 /* Build configuration list for PBXNativeTarget "MSUtility" */;
 			buildPhases = (
+				944E9A8D08610E7C45B9AE48 /* [CP] Check Pods Manifest.lock */,
 				84C635531E285EB70085A9F6 /* Sources */,
 				84C635541E285EB70085A9F6 /* Frameworks */,
 				84C635551E285EB70085A9F6 /* Resources */,
+				6BDA014B85DC104765BAE3BB /* [CP] Embed Pods Frameworks */,
+				D0F7F46FB8971D8EC020331A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BDA014B85DC104765BAE3BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSUtility/Pods-MSUtility-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		944E9A8D08610E7C45B9AE48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F7F46FB8971D8EC020331A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSUtility/Pods-MSUtility-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84C635531E285EB70085A9F6 /* Sources */ = {
@@ -257,6 +332,7 @@
 		};
 		84C6356A1E285EB80085A9F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6EC811C04028A3DD493574 /* Pods-MSUtility.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A769W4M849;
@@ -270,6 +346,7 @@
 		};
 		84C6356B1E285EB80085A9F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90BCEF285243E33BD966C05F /* Pods-MSUtility.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A769W4M849;
