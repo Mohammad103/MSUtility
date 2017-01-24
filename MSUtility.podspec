@@ -37,7 +37,7 @@ s.dependency 'SCLAlertView'
 s.dependency 'NitroUIColorCategories'
 
 # 8
-s.source_files = "MSUtility/**/*.{swift}"
+s.source_files = "MSUtility/*.{h,m,swift}"
 
 # 9
 s.resources = "MSUtility/**/*.{png,jpeg,jpg,storyboard,xib}"
