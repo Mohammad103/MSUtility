@@ -6,7 +6,7 @@
 //  Copyright © 2016 All Star. All rights reserved.
 //
 
-import UIKit
+/*import UIKit
 
 class DimUtility {
     
@@ -26,4 +26,4 @@ class DimUtility {
         dimView.removeFromSuperview()
     }
     
-}
+}*/

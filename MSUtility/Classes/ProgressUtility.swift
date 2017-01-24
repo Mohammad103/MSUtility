@@ -22,7 +22,7 @@ class ProgressUtility {
     }
     
     class func showProgressView() {
-        DimUtility.addDimView()
+        // DimUtility.addDimView()
         
         DispatchQueue.main.async {
             SVProgressHUD.show()
@@ -31,7 +31,7 @@ class ProgressUtility {
     
     
     class func showProgressViewWithProgress() {
-        DimUtility.addDimView()
+        // DimUtility.addDimView()
         
         DispatchQueue.main.async {
             SVProgressHUD.showProgress(0.0)
@@ -47,7 +47,7 @@ class ProgressUtility {
     
     
     class func dismissProgressView() {
-        DimUtility.removeDimView()
+        // DimUtility.removeDimView()
         
         DispatchQueue.main.async {
             SVProgressHUD.dismiss()
