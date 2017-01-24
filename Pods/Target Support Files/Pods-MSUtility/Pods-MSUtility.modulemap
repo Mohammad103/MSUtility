@@ -1,0 +1,6 @@
+framework module Pods_MSUtility {
+  umbrella header "Pods-MSUtility-umbrella.h"
+
+  export *
+  module * { export * }
+}
