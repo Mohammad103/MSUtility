@@ -10,10 +10,14 @@ import UIKit
 import Foundation
 
 
-let Storyboard = UIStoryboard(name: "Main", bundle: nil)
-
-struct Constants {
+struct MSConstants {
     private static let ScreenSize: CGRect = UIScreen.main.bounds
     static let ScreenWidth = ScreenSize.width
     static let ScreenHeight = ScreenSize.height
+    
+    static var PrimaryColorUint: UInt = 0x34425A
+    static var SecondaryColorUint: UInt = 0xEFEFF4
+    
+    static let PrimaryUIColor = UIColor(fromRGBHex: UInt32(PrimaryColorUint))
+    static let SecondaryUIColor = UIColor(fromRGBHex: UInt32(SecondaryColorUint))
 }

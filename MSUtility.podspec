@@ -8,7 +8,7 @@ s.summary = "MSUtility have main APIs and Utilities"
 s.requires_arc = true
 
 # 2
-s.version = "0.2.2"
+s.version = "0.2.3"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -22,10 +22,7 @@ s.homepage = "https://github.com/Mohammad103/MSUtility"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "[Your MSUtility Git URL Goes Here]", :tag => "0.2.2"}
-
-# For example,
-# s.source = { :git => "https://github.com/Mohammad103/MSUtility.git", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/Mohammad103/MSUtility.git", :tag => "0.2.3"}
 
 
 # 7
@@ -37,7 +34,7 @@ s.dependency 'SCLAlertView'
 s.dependency 'NitroUIColorCategories'
 
 # 8
-s.source_files = "MSUtility/*.{h,m,swift}"
+s.source_files = "MSUtility/Classes/*.{h,m,swift}"
 
 # 9
 s.resources = "MSUtility/*.{png,jpeg,jpg,xib}"

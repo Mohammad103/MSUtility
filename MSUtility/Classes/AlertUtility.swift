@@ -18,8 +18,8 @@ class AlertUtility {
             duration: 0.0,
             completeText: NSLocalizedString("Dismiss", comment: "Dismiss"),
             style: .error,
-            colorStyle: 0x34425A,
-            colorTextButton: 0xFFFFFF
+            colorStyle: MSConstants.PrimaryColorUint,
+            colorTextButton: MSConstants.SecondaryColorUint
         )
     }
     
@@ -30,8 +30,8 @@ class AlertUtility {
             duration: 0.0,
             completeText: NSLocalizedString("Dismiss", comment: "Dismiss"),
             style: .success,
-            colorStyle: 0x34425A,
-            colorTextButton: 0xFFFFFF
+            colorStyle: MSConstants.PrimaryColorUint,
+            colorTextButton: MSConstants.SecondaryColorUint
         )
     }
     

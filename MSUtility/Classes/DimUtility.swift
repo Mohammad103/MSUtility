@@ -13,7 +13,7 @@ class DimUtility {
     private static var dimView: UIView! = UIView()
     
     class func setDimViewStyles() {
-        dimView.frame = CGRect(x: 0, y: 0, width: Constants.ScreenWidth, height: Constants.ScreenHeight)
+        dimView.frame = CGRect(x: 0, y: 0, width: MSConstants.ScreenWidth, height: MSConstants.ScreenHeight)
         dimView.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.6)
     }
     
