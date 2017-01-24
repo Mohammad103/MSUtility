@@ -22,7 +22,7 @@ s.homepage = "https://github.com/Mohammad103/MSUtility"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "[Your MSUtility Git URL Goes Here]", :tag => "0.2.0"}
+s.source = { :git => "[Your MSUtility Git URL Goes Here]", :tag => "0.2.1"}
 
 # For example,
 # s.source = { :git => "https://github.com/Mohammad103/MSUtility.git", :tag => "#{s.version}"}
@@ -40,5 +40,5 @@ s.dependency 'NitroUIColorCategories'
 s.source_files = "MSUtility/*.{h,m,swift}"
 
 # 9
-s.resources = "MSUtility/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "MSUtility/*.{png,jpeg,jpg,xib}"
 end
