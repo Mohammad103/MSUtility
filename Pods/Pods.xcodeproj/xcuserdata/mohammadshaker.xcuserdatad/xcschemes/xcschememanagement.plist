@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>DZNEmptyDataSet.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JVFloatLabeledTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>NitroNSDictionaryCategories.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,17 +52,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>43A03D4A3F12BEBF47DDAB51F94EC4AB</key>
+		<key>1B6C1C313329B0877023A6D10F23F468</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6065580E44FD1061C2212FC8ED476130</key>
+		<key>2697C716D48AD37B4300A291D4A953C9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8687FA4FDECFF47785795707B9C6CDC8</key>
+		<key>2A4448146C785C426971111F117D773C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +72,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>91516582DF7FA2CF02A911AB400CF9A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>BC35B3348F0C8191C58BA8318293403C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D386C75EFD4F03725E4EFB866B600B9A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,7 +92,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB255DE560603E883B30EDFF05EB30F2</key>
+		<key>EB3329F439CE9861E62AC9F303C58C1B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

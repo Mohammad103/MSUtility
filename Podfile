@@ -9,5 +9,7 @@ target 'MSUtility' do
 	pod 'SVProgressHUD'
 	pod 'SCLAlertView'
     pod 'NitroUIColorCategories'
+    pod 'JVFloatLabeledTextField'
+    pod 'DZNEmptyDataSet'
 
 end

@@ -8,7 +8,7 @@ s.summary = "MSUtility have main APIs and Utilities"
 s.requires_arc = true
 
 # 2
-s.version = "0.2.4"
+s.version = "0.2.5"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -22,7 +22,7 @@ s.homepage = "https://github.com/Mohammad103/MSUtility"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/Mohammad103/MSUtility.git", :tag => "0.2.4"}
+s.source = { :git => "https://github.com/Mohammad103/MSUtility.git", :tag => "0.2.5"}
 
 
 # 7
@@ -32,6 +32,9 @@ s.dependency 'SwiftyJSON'
 s.dependency 'SVProgressHUD'
 s.dependency 'SCLAlertView'
 s.dependency 'NitroUIColorCategories'
+s.dependency 'JVFloatLabeledTextField'
+s.dependency 'DZNEmptyDataSet'
+
 
 # 8
 s.source_files = "MSUtility/Classes/*.{h,m,swift}"
