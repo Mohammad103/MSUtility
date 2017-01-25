@@ -12,7 +12,7 @@ import SVProgressHUD
 import NitroUIColorCategories
 
 
-class ProgressUtility {
+public class ProgressUtility {
     
     class func setProgressViewStyles() {
         SVProgressHUD.setDefaultStyle(.custom)

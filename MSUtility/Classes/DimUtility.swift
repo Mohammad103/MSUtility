@@ -8,7 +8,7 @@
 
 /*import UIKit
 
-class DimUtility {
+public class DimUtility {
     
     private static var dimView: UIView! = UIView()
     

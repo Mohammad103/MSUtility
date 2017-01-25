@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-class ImageLoader {
+public class ImageLoader {
     
     // var cache = NSCache()
     

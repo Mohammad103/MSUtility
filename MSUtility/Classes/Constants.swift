@@ -10,7 +10,7 @@ import UIKit
 import Foundation
 
 
-struct MSConstants {
+public struct MSConstants {
     private static let ScreenSize: CGRect = UIScreen.main.bounds
     static let ScreenWidth = ScreenSize.width
     static let ScreenHeight = ScreenSize.height

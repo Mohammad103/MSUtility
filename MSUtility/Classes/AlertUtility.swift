@@ -9,7 +9,7 @@
 import Foundation
 import SCLAlertView
 
-class AlertUtility {
+public class AlertUtility {
     
     class func showErrorAlert(message: String!) {
         SCLAlertView().showTitle(

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UserDefaultsAPI: NSObject {
+public class UserDefaultsAPI: NSObject {
     
     
     class func setDefaults() {

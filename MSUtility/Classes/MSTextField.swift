@@ -9,7 +9,7 @@
 import UIKit
 import JVFloatLabeledTextField
 
-class MSTextField: JVFloatLabeledTextField {
+public class MSTextField: JVFloatLabeledTextField {
 
     
     private func setStyles() {
@@ -19,15 +19,16 @@ class MSTextField: JVFloatLabeledTextField {
         self.floatingLabelYPadding = 3.0
         self.floatingLabelXPadding = 0
         self.placeholderYPadding = 18.0
+        self.borderStyle = .none
     }
     
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
         setStyles()
     }
     
-    required override init(frame: CGRect) {
+    required override public init(frame: CGRect) {
         super.init(frame: frame)
         setStyles()
     }

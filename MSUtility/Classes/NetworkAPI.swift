@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-class NetworkAPI: NSObject {
+public class NetworkAPI: NSObject {
     
     // ======================================
     // ==== Post = JSON, Response = JSON ====

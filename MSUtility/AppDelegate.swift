@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         MSConstants.PrimaryColorUint = 0x34425B
+        MSConstants.SecondaryColorUint = 0xEBEBEB
         
         return true
     }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MSButton: UIButton {
+public class MSButton: UIButton {
 
     private func setStyles() {
         self.setTitleColor(MSConstants.SecondaryUIColor, for: .normal)
@@ -16,12 +16,12 @@ class MSButton: UIButton {
     }
     
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
         setStyles()
     }
     
-    required override init(frame: CGRect) {
+    required override public init(frame: CGRect) {
         super.init(frame: frame)
         setStyles()
     }
