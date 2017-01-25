@@ -12,7 +12,7 @@ import JVFloatLabeledTextField
 class MSTextField: JVFloatLabeledTextField {
 
     
-    private func setColors() {
+    private func setStyles() {
         self.floatingLabelTextColor = MSConstants.SecondaryUIColor
         self.floatingLabelActiveTextColor = MSConstants.PrimaryUIColor
         self.placeholderColor = MSConstants.PrimaryUIColor
@@ -24,12 +24,12 @@ class MSTextField: JVFloatLabeledTextField {
     
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
-        setColors()
+        setStyles()
     }
     
     required override init(frame: CGRect) {
         super.init(frame: frame)
-        setColors()
+        setStyles()
     }
     
 }
