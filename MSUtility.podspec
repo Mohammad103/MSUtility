@@ -41,4 +41,5 @@ s.source_files = "MSUtility/Classes/*.{h,m,swift}"
 
 # 9
 s.resources = "MSUtility/*.{png,jpeg,jpg,xib}"
+
 end
