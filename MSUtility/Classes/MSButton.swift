@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MSButton: UIButton {
+@IBDesignable public class MSButton: UIButton {
 
     private func setStyles() {
         self.setTitleColor(MSConstants.SecondaryUIColor, for: .normal)

@@ -9,7 +9,7 @@
 import UIKit
 import JVFloatLabeledTextField
 
-public class MSTextField: JVFloatLabeledTextField {
+@IBDesignable public class MSTextField: JVFloatLabeledTextField {
 
     
     private func setStyles() {
