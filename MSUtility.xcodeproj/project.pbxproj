@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C79A656342FF38904B92159 /* Pods_MSUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB249E73ED5989BF9A68D264 /* Pods_MSUtility.framework */; };
+		841317181E3A90C800267AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841317171E3A90C800267AE2 /* Images.xcassets */; };
 		849A84AA1E392E6B0065DEE3 /* MSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A84A91E392E6B0065DEE3 /* MSButton.swift */; };
 		849A84AC1E392E750065DEE3 /* MSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A84AB1E392E750065DEE3 /* MSTextField.swift */; };
 		84A677DE1E38058C00E827D0 /* AlertUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A677DB1E38058C00E827D0 /* AlertUtility.swift */; };
@@ -28,13 +29,11 @@
 		84C635601E285EB80085A9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6355E1E285EB80085A9F6 /* Main.storyboard */; };
 		84C635621E285EB80085A9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C635611E285EB80085A9F6 /* Assets.xcassets */; };
 		84C635651E285EB80085A9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C635631E285EB80085A9F6 /* LaunchScreen.storyboard */; };
-		84EE87041E39A0DA00C87B1C /* exclamation.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EE87011E39A0DA00C87B1C /* exclamation.png */; };
-		84EE87051E39A0DA00C87B1C /* exclamation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EE87021E39A0DA00C87B1C /* exclamation@2x.png */; };
-		84EE87061E39A0DA00C87B1C /* exclamation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EE87031E39A0DA00C87B1C /* exclamation@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C6EC811C04028A3DD493574 /* Pods-MSUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSUtility.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSUtility/Pods-MSUtility.debug.xcconfig"; sourceTree = "<group>"; };
+		841317171E3A90C800267AE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		849A84A91E392E6B0065DEE3 /* MSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSButton.swift; path = Classes/MSButton.swift; sourceTree = "<group>"; };
 		849A84AB1E392E750065DEE3 /* MSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSTextField.swift; path = Classes/MSTextField.swift; sourceTree = "<group>"; };
 		84A677DB1E38058C00E827D0 /* AlertUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertUtility.swift; path = Classes/AlertUtility.swift; sourceTree = "<group>"; };
@@ -62,9 +61,6 @@
 		84C635641E285EB80085A9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C635661E285EB80085A9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C6357E1E2864830085A9F6 /* MSUtility-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MSUtility-Bridging-Header.h"; sourceTree = "<group>"; };
-		84EE87011E39A0DA00C87B1C /* exclamation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclamation.png; sourceTree = "<group>"; };
-		84EE87021E39A0DA00C87B1C /* exclamation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exclamation@2x.png"; sourceTree = "<group>"; };
-		84EE87031E39A0DA00C87B1C /* exclamation@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exclamation@3x.png"; sourceTree = "<group>"; };
 		90BCEF285243E33BD966C05F /* Pods-MSUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSUtility.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSUtility/Pods-MSUtility.release.xcconfig"; sourceTree = "<group>"; };
 		CB249E73ED5989BF9A68D264 /* Pods_MSUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,26 +89,10 @@
 		849A849E1E38ECDB0065DEE3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				849A84A61E3902D90065DEE3 /* Button */,
-				849A849F1E38ECE30065DEE3 /* Text Field */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		849A849F1E38ECE30065DEE3 /* Text Field */ = {
-			isa = PBXGroup;
-			children = (
+				849A84A91E392E6B0065DEE3 /* MSButton.swift */,
 				849A84AB1E392E750065DEE3 /* MSTextField.swift */,
 			);
-			name = "Text Field";
-			sourceTree = "<group>";
-		};
-		849A84A61E3902D90065DEE3 /* Button */ = {
-			isa = PBXGroup;
-			children = (
-				849A84A91E392E6B0065DEE3 /* MSButton.swift */,
-			);
-			name = Button;
+			name = Views;
 			sourceTree = "<group>";
 		};
 		84C6354E1E285EB70085A9F6 = {
@@ -165,9 +145,9 @@
 			children = (
 				84C6355E1E285EB80085A9F6 /* Main.storyboard */,
 				84C635611E285EB80085A9F6 /* Assets.xcassets */,
+				841317171E3A90C800267AE2 /* Images.xcassets */,
 				84C635631E285EB80085A9F6 /* LaunchScreen.storyboard */,
 				84C635661E285EB80085A9F6 /* Info.plist */,
-				84EE87001E39A0B900C87B1C /* Images */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -196,16 +176,6 @@
 				84A677EF1E3805C700E827D0 /* UIView+Utils.m */,
 			);
 			name = Extentions;
-			sourceTree = "<group>";
-		};
-		84EE87001E39A0B900C87B1C /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				84EE87011E39A0DA00C87B1C /* exclamation.png */,
-				84EE87021E39A0DA00C87B1C /* exclamation@2x.png */,
-				84EE87031E39A0DA00C87B1C /* exclamation@3x.png */,
-			);
-			name = Images;
 			sourceTree = "<group>";
 		};
 		CA82B30D65FCB5AF5755F696 /* Frameworks */ = {
@@ -280,12 +250,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84EE87051E39A0DA00C87B1C /* exclamation@2x.png in Resources */,
 				84C635651E285EB80085A9F6 /* LaunchScreen.storyboard in Resources */,
+				841317181E3A90C800267AE2 /* Images.xcassets in Resources */,
 				84C635621E285EB80085A9F6 /* Assets.xcassets in Resources */,
-				84EE87061E39A0DA00C87B1C /* exclamation@3x.png in Resources */,
 				84C635601E285EB80085A9F6 /* Main.storyboard in Resources */,
-				84EE87041E39A0DA00C87B1C /* exclamation.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

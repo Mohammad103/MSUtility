@@ -25,5 +25,10 @@ import UIKit
         super.init(frame: frame)
         setStyles()
     }
+    
+    public override func layoutSubviews() {
+        super.layoutSubviews()
+        setStyles()
+    }
 
 }

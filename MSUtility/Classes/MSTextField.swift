@@ -33,4 +33,9 @@ import JVFloatLabeledTextField
         setStyles()
     }
     
+    public override func layoutSubviews() {
+        super.layoutSubviews()
+        setStyles()
+    }
+    
 }
