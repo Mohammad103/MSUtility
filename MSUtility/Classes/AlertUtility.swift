@@ -11,7 +11,7 @@ import SCLAlertView
 
 public class AlertUtility {
     
-    class func showErrorAlert(message: String!) {
+    public class func showErrorAlert(message: String!) {
         SCLAlertView().showTitle(
             NSLocalizedString("Error", comment: "Error"),
             subTitle: message,
@@ -23,7 +23,7 @@ public class AlertUtility {
         )
     }
     
-    class func showSuccessAlert(message: String!) {
+    public class func showSuccessAlert(message: String!) {
         SCLAlertView().showTitle(
             NSLocalizedString("Note", comment: "Note"),
             subTitle: message,

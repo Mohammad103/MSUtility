@@ -15,7 +15,7 @@ public class NetworkAPI: NSObject {
     // ==== Post = JSON, Response = JSON ====
     // ======================================
     
-    func postJSON(url: String!, parameters: [String: AnyObject]!, headers: [String: String]!, successBlock: @escaping (_ responseJsonValue: [String: AnyObject]?) -> Void, failureBlock: @escaping (_ error: String) -> Void)
+    public func postJSON(url: String!, parameters: [String: AnyObject]!, headers: [String: String]!, successBlock: @escaping (_ responseJsonValue: [String: AnyObject]?) -> Void, failureBlock: @escaping (_ error: String) -> Void)
     {
         ProgressUtility.showProgressView()
         
@@ -51,7 +51,7 @@ public class NetworkAPI: NSObject {
     // ==== Get = Normal, Response = JSON ====
     // =======================================
     
-    func get(url: String!, parameters: [String: AnyObject]!, headers: [String: String]!, successBlock: @escaping (_ responseJsonValue: [String: AnyObject]?) -> Void, failureBlock: @escaping (_ error: String) -> Void)
+    public func get(url: String!, parameters: [String: AnyObject]!, headers: [String: String]!, successBlock: @escaping (_ responseJsonValue: [String: AnyObject]?) -> Void, failureBlock: @escaping (_ error: String) -> Void)
     {
         ProgressUtility.showProgressView()
         

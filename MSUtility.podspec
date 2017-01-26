@@ -22,7 +22,7 @@ s.homepage = "https://github.com/Mohammad103/MSUtility"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/Mohammad103/MSUtility.git", :tag => "0.2.8"}
+s.source = { :git => "https://github.com/Mohammad103/MSUtility.git", :tag => s.version.to_s}
 
 
 # 7

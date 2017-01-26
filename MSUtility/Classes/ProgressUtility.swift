@@ -14,14 +14,14 @@ import NitroUIColorCategories
 
 public class ProgressUtility {
     
-    class func setProgressViewStyles() {
+    public class func setProgressViewStyles() {
         SVProgressHUD.setDefaultStyle(.custom)
         SVProgressHUD.setDefaultMaskType(.clear)
         SVProgressHUD.setBackgroundColor(MSConstants.PrimaryUIColor)
         SVProgressHUD.setForegroundColor(MSConstants.SecondaryUIColor)
     }
     
-    class func showProgressView() {
+    public class func showProgressView() {
         // DimUtility.addDimView()
         
         DispatchQueue.main.async {
@@ -30,7 +30,7 @@ public class ProgressUtility {
     }
     
     
-    class func showProgressViewWithProgress() {
+    public class func showProgressViewWithProgress() {
         // DimUtility.addDimView()
         
         DispatchQueue.main.async {
@@ -39,14 +39,14 @@ public class ProgressUtility {
     }
     
     
-    class func showProgressViewWithProgress(progress: Float) {
+    public class func showProgressViewWithProgress(progress: Float) {
         DispatchQueue.main.async {
             SVProgressHUD.showProgress(progress)
         }
     }
     
     
-    class func dismissProgressView() {
+    public class func dismissProgressView() {
         // DimUtility.removeDimView()
         
         DispatchQueue.main.async {

@@ -11,7 +11,7 @@ import UIKit
 public class UserDefaultsAPI: NSObject {
     
     
-    class func setDefaults() {
+    public class func setDefaults() {
         let defaultPrefsFile: String! = Bundle.main.path(forResource: "defaultPrefs", ofType: "plist") ?? ""
         let defaultPreferences: [String: AnyObject] = NSDictionary(contentsOfFile: defaultPrefsFile) as! [String: AnyObject]
         let defaults: UserDefaults = UserDefaults.standard
@@ -19,12 +19,12 @@ public class UserDefaultsAPI: NSObject {
         defaults.synchronize()
     }
     
-    class func getUserPreference(key: String!) -> AnyObject {
+    public class func getUserPreference(key: String!) -> AnyObject {
         let defaults: UserDefaults = UserDefaults.standard
         return defaults.value(forKey: key) as AnyObject
     }
     
-    class func setUserPreference(value: AnyObject, key: String!) {
+    public class func setUserPreference(value: AnyObject, key: String!) {
         let defaults: UserDefaults = UserDefaults.standard
         defaults.set(value, forKey: key)
         defaults.synchronize()

@@ -13,14 +13,14 @@ public class ImageLoader {
     
     // var cache = NSCache()
     
-    class var sharedLoader : ImageLoader {
+    public class var sharedLoader : ImageLoader {
         struct Static {
             static let instance : ImageLoader = ImageLoader()
         }
         return Static.instance
     }
     
-    func imageForUrl(urlString: String, index: Int, completionHandler:(_ image: UIImage?, _ index: Int) -> ()) {
+    public func imageForUrl(urlString: String, index: Int, completionHandler:(_ image: UIImage?, _ index: Int) -> ()) {
         /*dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), {()in
             let data: NSData? = self.cache.objectForKey(urlString) as? NSData
             

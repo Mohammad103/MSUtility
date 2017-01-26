@@ -10,7 +10,7 @@ import UIKit
 
 extension UITextField {
     
-    func showExclamationMark() {
+    public func showExclamationMark() {
         self.rightViewMode = .always
         let exclamationIV = UIImageView(frame: CGRect(x: 0, y: 0, width: 16, height: 16))
         exclamationIV.image = UIImage(named: "exclamation")
@@ -18,7 +18,7 @@ extension UITextField {
         self.rightView = exclamationIV
     }
     
-    func hideExclamationMark() {
+    public func hideExclamationMark() {
         self.rightViewMode = .never
         self.rightView = nil
     }
