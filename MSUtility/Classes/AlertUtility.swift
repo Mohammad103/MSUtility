@@ -18,7 +18,7 @@ public class AlertUtility {
             duration: 0.0,
             completeText: NSLocalizedString("Dismiss", comment: "Dismiss"),
             style: .error,
-            colorStyle: MSConstants.PrimaryColorUint,
+            colorStyle: MSConstants.DangerColorUint,
             colorTextButton: MSConstants.SecondaryColorUint
         )
     }
