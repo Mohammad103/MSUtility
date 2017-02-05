@@ -16,6 +16,7 @@ import JVFloatLabeledTextField
         self.floatingLabelTextColor = MSConstants.SecondaryUIColor
         self.floatingLabelActiveTextColor = MSConstants.PrimaryUIColor
         self.placeholderColor = MSConstants.PrimaryUIColor
+        self.font = UIFont.systemFont(ofSize: 14.0)
         self.floatingLabelYPadding = 3.0
         self.floatingLabelXPadding = 0
         self.placeholderYPadding = 18.0

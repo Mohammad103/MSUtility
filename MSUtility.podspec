@@ -8,7 +8,7 @@ s.summary = "MSUtility have main APIs and Utilities"
 s.requires_arc = true
 
 # 2
-s.version = "0.2.12"
+s.version = "0.3.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
